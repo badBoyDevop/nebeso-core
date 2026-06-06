@@ -1,4 +1,43 @@
+NeBeso
+Copyright 2026 NeBeso (Dorian Lapi / badBoyDevop)
+
+Website: https://nebeso.com
+
+---
+
+This product is based on TokenBudget, originally created by Harsha Krishne Gowda.
+
 TokenBudget
 Copyright 2026 Harsha Krishne Gowda
-
 Website: https://tokenbudget.com
+Source: https://github.com/badBoyDevop/nebeso-core
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use the original work except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+---
+
+MODIFICATIONS
+
+NeBeso has made substantial modifications to the original TokenBudget codebase,
+including but not limited to:
+
+- Organization/group management with business_name support
+- Mobile-responsive layout (Header, Sidebar, PageShell)
+- Admin pages (AdminGroups, AdminGroupDetail, AdminUsers, AdminContacts, AdminSystem)
+- Budget, alert, and analytics features
+- Clerk authentication integration
+- Proxy infrastructure and OTLP observability
+- Pricing engine and price monitoring
+- RBAC and project member management
+- New SDK (Python and JavaScript/TypeScript)
+- Complete UI redesign (NeBeso brand, colors, typography)
+
+All new code and modifications are Copyright 2026 NeBeso and are NOT licensed
+under Apache 2.0 unless explicitly stated. See individual file headers.
+
+The open-source Layer 1 components (generic UI, base models, config) remain
+available under Apache 2.0 in the nebeso-core repository.
